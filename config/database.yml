@@ -1,0 +1,15 @@
+development:
+  adapter: mysql2
+  database: backbone
+  user: root
+  password:
+  pool: 5
+  timeout: 5000
+
+test:
+  adapter: mysql2
+  database: backbone_test
+  user: root
+  password:
+  pool: 5
+  timeout: 5000
